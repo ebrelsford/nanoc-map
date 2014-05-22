@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>nanoc-map</title>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+        <link rel="stylesheet" href="<%= @items['/stylesheet/'].path %>">
+
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+        <script src="<%= @items['/js/map/'].path %>"></script>
+    </head>
+    <body>
+        <div id="map"></div>
+    </body>
+</html>
